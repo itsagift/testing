@@ -1,11 +1,11 @@
-<head>
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
-
 ---
 title: A simple starter kit for Eleventy
 heading: Testing 12345
 ---
+
+<head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
 
 Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself. It’s by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
 

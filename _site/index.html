@@ -1,3 +1,16 @@
-
+<head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
 <p>Hylia is a lightweight <a href="https://11ty.io">Eleventy</a> starter kit with <a href="https://www.netlifycms.org/">Netlify CMS</a> pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself. It’s by <a href="https://twitter.com/hankchizljaw">Andy Bell</a> and <a href="https://github.com/aarongustafson/hylia/graphs/contributors">friends</a>.</p>
 <p>Get started now by <a href="https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&amp;stack=cms">deploying Hylia to Netlify.</a></p>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
